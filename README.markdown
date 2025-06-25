@@ -45,8 +45,9 @@ Setiap halaman UI memiliki fitur berikut:
 1. Pastikan perangkat memiliki koneksi internet (untuk mengakses Bootstrap Icons via CDN).  
 2. Klik tombol `Code` (warna hijau) di halaman repository, lalu pilih `Download ZIP`.  
 3. Ekstrak ZIP yang telah diunduh ke folder pilihan.  
-4. Masuk ke folder `Kelompok3_DAMP/Watchers/`.  
-5. Klik dua kali salah satu file HTML (misalnya, `opinionCollection.html`, `writeOpinion.html`, `userProfile.html`, `ranking.html`, `watchlist.html`, atau `trending.html`) untuk membuka tampilan di browser.  
+4. Buka folder di file editor Visual Studio Code
+5. Jalankan server dengan klik "Go Live" di pojok kanan bawah layar
+6. Anda akan dialihkan ke tampilan halaman untuk file tersebut dan bisa mengakses Watchers secara leluasa di dalamnya
 
 **Catatan:**  
 - File HTML menggunakan path relatif untuk CSS dan gambar di folder `Watchers/assets/`. Pastikan struktur folder tidak diubah setelah ekstrak ZIP.  
