@@ -46,7 +46,8 @@ Setiap halaman UI memiliki fitur berikut:
 2. Klik tombol `Code` (warna hijau) di halaman repository, lalu pilih `Download ZIP`.  
 3. Ekstrak ZIP yang telah diunduh ke folder pilihan.  
 4. Masuk ke folder `Kelompok3_DAMP/Watchers/`.  
-5. Klik dua kali salah satu file HTML (misalnya, `opinionCollection.html`, `writeOpinion.html`, `userProfile.html`, `ranking.html`, `watchlist.html`, atau `trending.html`) untuk membuka tampilan di browser.  
+5. Buka folder melalui VSCode
+6. Klik "Go Live" pada bagian pojok kanan bawah untuk membuka server dan menjalankan Watcher pada browser anda.
 
 **Catatan:**  
 - File HTML menggunakan path relatif untuk CSS dan gambar di folder `Watchers/assets/`. Pastikan struktur folder tidak diubah setelah ekstrak ZIP.  
