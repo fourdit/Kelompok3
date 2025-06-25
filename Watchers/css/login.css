@@ -1,0 +1,120 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2.5rem;
+    font-size: 1rem;
+}
+.mobile-container {
+    width: 480px;
+    height: 940px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 0.625rem rgb(0 0 0 / 0.1);
+    display: flex;
+    flex-direction: column;
+    background: white;
+    position: relative;
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.header-bg {
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.header-bg img {
+    width: 480px;
+}
+.header-text {
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 200px;
+    margin-left: 45px;
+    z-index: 3;
+}
+.header-text h1 {
+    font-size: 2.5rem;
+    margin-top: 0px;
+}
+.header-text p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+.bg-grey {
+    background-color: #EDEDED;
+    z-index: 2;
+    border-radius: 50px 50px 0px 0px;
+    height: 900px;
+}
+.bg-grey h1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30pxpx;
+    font-weight: bold;
+}
+.form-container {
+    padding: 2rem;
+    z-index: 2;
+    width: 80%;
+    margin-left: 40px;
+}
+.form-control {
+    border: 1px solid #D1D5DB;
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 1rem;
+}
+.btn-primary {
+    background-color: #4169E1;
+    border: none;
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 1.1rem;
+    width: 100%;
+}
+.btn-primary:hover {
+    background-color: #1E3172;
+}
+.login {
+    margin-bottom: 40px;
+}
+.social-btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.social-btns .btn {
+    width: 68px;
+    height: 36px;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forgot-password {
+    color: #000000;
+    text-align: right;
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 40px;
+}
+.signup-link {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 550;
+}
+.form-container p {
+    text-align: center;
+    color: #A5A5A5;
+}

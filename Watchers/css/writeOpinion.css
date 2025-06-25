@@ -1,0 +1,142 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  font-size: 1rem;
+}
+
+.mobile-container {
+  width: 480px;
+  height: 940px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 0.625rem rgb(0 0 0 / 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: white;
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid #ddd;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.header-top i {
+  font-size: 1.2rem;
+}
+
+.header-top h1 {
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin: 0;
+}
+.custom-thick-outline {
+    font-size: 1.5rem;
+    -webkit-text-stroke: 1.2px currentColor; 
+    color: black;
+}
+.bg-grey {
+  background-color: white;
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.form-container {
+  padding: 10px;
+}
+
+.form-container h6 {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  font-weight: 550;
+}
+
+.search-movie {
+  background-color: #EDF1FD;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.input-group-text {
+  background-color: #EDF1FD;
+  border: none;
+}
+
+.opinion-text {
+  background-color: #EDF1FD;
+  border: none;
+  resize: none;
+  font-size: 0.9rem;
+}
+
+.rating-section {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.rating-section label {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.stars {
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+}
+
+.stars i {
+  font-size: 2.5rem;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.stars i.active {
+  color: #4169E1;
+}
+
+.post-btn {
+  background-color: #4169E1;
+  border: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.post-btn:hover {
+  background-color: #274dbd;
+}
+
+.nav-bar {
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.nav-item {
+  color: black;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.nav-item img {
+  width: 25px;
+  height: 25px;
+}
