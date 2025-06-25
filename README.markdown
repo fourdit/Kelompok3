@@ -5,35 +5,9 @@ Repositori ini berisi implementasi antarmuka aplikasi **Watchers**, sebuah platf
 - Alexandra Pritha Sari (245150401111006)  
 - Cantika Zahna Brillianto Putri (245150407111001)  
 
-## Struktur Folder
-
-```
-Kelompok3_DAMP/
-├── Watchers/
-│   ├── assets/
-│   │   ├── css/
-│   │   │   ├── opinionCollection.css
-│   │   │   ├── opinionCollectionWibu.css
-│   │   │   ├── writeOpinion.css
-│   │   │   └── userProfile.css
-│   │   └── images/
-│   │       ├── [placeholder untuk gambar avatar, poster, dll.]
-│   ├── opinionCollection.html
-│   ├── opinionCollection1.html
-│   ├── writeOpinion.html
-│   ├── userProfile.html
-│   ├── userProfileReviewed.html
-│   ├── ranking.html
-│   ├── watchlist.html
-│   └── trending.html
-├── Design Figma/
-│   ├── [file desain Figma, misalnya Watchers_Design.fig]
-├── Sketsa Design App/
-│   ├── [file sketsa, misalnya Sketsa_Halaman_Koleksi_Opini.jpg, Sketsa_Profil_Pengguna.pdf, dll.]
-```
 
 - `Watchers/` → Berisi kode sumber aplikasi (HTML, CSS, dan gambar).  
-  - `assets/css/` → Berisi file CSS untuk gaya antarmuka. Disusun oleh: Rifky Aditya Harun (Koleksi Opini, Tambah Opini, Profil Pengguna), Alexandra Pritha Sari dan Cantika Zahna Brillianto Putri (Ranking, Watchlist, Trending).  
+  - `assets/css/` → Berisi file CSS untuk gaya antarmuka. 
   - `assets/images/` → Berisi gambar seperti avatar dan poster film (placeholder digunakan dalam kode).  
   - `opinionCollection.html` dan `opinionCollection1.html` → Tampilan *Halaman Koleksi Opini* dengan tab "For You" dan "Komunitas Wibu". Disusun oleh: Rifky Aditya Harun.  
   - `writeOpinion.html` → Tampilan *Halaman Tambah Opini* untuk menulis ulasan. Disusun oleh: Rifky Aditya Harun.  
