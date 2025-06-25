@@ -12,8 +12,8 @@ Repositori ini berisi implementasi antarmuka aplikasi **Watchers**, sebuah platf
   - `images/` → Berisi gambar seperti avatar dan poster film (placeholder digunakan dalam kode).  
   - `bs/`  → Berisi file-file bootstrap css   
   - `GenreIcon/` → Berisi file icon-icon  
-- `Design Figma/` → Berisi file desain Figma untuk antarmuka aplikasi. Disusun oleh: Kelompok 3.  
-- `Sketsa Design App/` → Berisi sketsa desain aplikasi dalam format gambar atau PDF. Disusun oleh: Kelompok 3.  
+- `Design Figma/` → Berisi file desain Figma untuk antarmuka aplikasi.  
+- `Sketsa Design App/` → Berisi sketsa desain aplikasi dalam format gambar atau PDF.   
 
 ## Fitur Tampilan
 
