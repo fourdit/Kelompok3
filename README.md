@@ -1,11 +1,11 @@
-##Desain Antarmuka Pengguna: Watchers - Platform Komunitas Film
+# Desain Antarmuka Pengguna: Watchers - Platform Komunitas Film
 Repositori ini berisi implementasi antarmuka aplikasi Watchers, sebuah platform berbasis mobile untuk pecinta film yang memungkinkan pengguna berbagi ulasan, menemukan rekomendasi, dan mengelola preferensi menonton. Aplikasi ini dikembangkan menggunakan HTML dan CSS dengan pendekatan mobile-first (lebar layar maksimum 480px) serta memanfaatkan Bootstrap Icons untuk ikon-ikon interaktif. Tugas ini disusun oleh Kelompok 3 yang beranggotakan:  
 
 Rifky Aditya Harun (245150400111002)  
 Alexandra Pritha Sari (245150401111006)  
 Cantika Zahna Brillianto Putri (245150407111001)
 
-##Struktur Folder
+## Struktur Folder
 Kelompok3_DAMP/
 ├── assets/
 │   ├── css/
@@ -33,7 +33,7 @@ ranking.html → Berisi tampilan Halaman Ranking untuk peringkat film. Disusun o
 watchlist.html → Berisi tampilan Halaman Watchlist untuk daftar film yang disimpan. Disusun oleh: Cantika Zahna Brillianto Putri.  
 trending.html → Berisi tampilan Halaman Trending untuk film populer. Disusun oleh: Cantika Zahna Brillianto Putri.
 
-##Fitur Tampilan
+## Fitur Tampilan
 Setiap halaman UI memiliki fitur berikut:  
 
 Halaman Koleksi Opini (opinionCollection.html, opinionCollection1.html):  
@@ -69,7 +69,7 @@ Poster film, judul, dan jumlah interaksi (misalnya, likes atau shares).
 
 
 
-Cara Menjalankan melalui Local File
+## Cara Menjalankan melalui Local File
 
 Pastikan perangkat memiliki koneksi internet (untuk mengakses Bootstrap Icons via CDN).  
 Klik tombol Code (warna hijau) di halaman repository, lalu pilih Download ZIP.  
@@ -77,7 +77,7 @@ Ekstrak ZIP yang telah diunduh ke folder pilihan.
 Masuk ke folder Kelompok3_DAMP/.  
 Klik dua kali salah satu file HTML (misalnya, opinionCollection.html, writeOpinion.html, userProfile.html, ranking.html, watchlist.html, atau trending.html) untuk membuka tampilan di browser.
 
-##Catatan:  
+## Catatan:  
 
 File HTML menggunakan path relatif untuk CSS dan gambar di folder assets/. Pastikan struktur folder tidak diubah setelah ekstrak ZIP.  
 Jika ikon tidak muncul, periksa koneksi internet atau unduh Bootstrap Icons secara lokal dan sesuaikan path di file HTML.
