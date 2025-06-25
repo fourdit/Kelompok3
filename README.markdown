@@ -7,10 +7,10 @@ Repositori ini berisi implementasi antarmuka aplikasi **Watchers**, sebuah platf
 
 
 - `Watchers/` → Berisi kode sumber aplikasi (HTML, CSS, dan gambar).  
-  - `assets/css/` → Berisi file CSS untuk gaya antarmuka. 
-  - `assets/images/` → Berisi gambar seperti avatar dan poster film (placeholder digunakan dalam kode).  
-  - `opinionCollection.html` dan `opinionCollection1.html` → Tampilan *Halaman Koleksi Opini* dengan tab "For You" dan "Komunitas Wibu". Disusun oleh: Rifky Aditya Harun.  
-  - `writeOpinion.html` → Tampilan *Halaman Tambah Opini* untuk menulis ulasan. Disusun oleh: Rifky Aditya Harun.  
+  - `css/` → Berisi file CSS untuk gaya antarmuka. 
+  - `images/` → Berisi gambar seperti avatar dan poster film (placeholder digunakan dalam kode).  
+  - `bs/`  → Tampilan *Halaman Koleksi Opini* dengan tab "For You" dan "Komunitas Wibu". Disusun oleh: Rifky Aditya Harun.  
+  - `Genr` → Tampilan *Halaman Tambah Opini* untuk menulis ulasan. Disusun oleh: Rifky Aditya Harun.  
   - `userProfile.html` dan `userProfileReviewed.html` → Tampilan *Halaman Profil Pengguna* dengan tab "Reviews" dan "Reviewed Films". Disusun oleh: Rifky Aditya Harun.  
   - `ranking.html` → Tampilan *Halaman Ranking* untuk peringkat film. Disusun oleh: Alexandra Pritha Sari.  
   - `watchlist.html` → Tampilan *Halaman Watchlist* untuk daftar film yang disimpan. Disusun oleh: Cantika Zahna Brillianto Putri.  
