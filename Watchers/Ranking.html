@@ -134,7 +134,7 @@
             .then(res => res.text())
             .then(html => {
                 document.getElementById('bottom-navbar').innerHTML = html;
-                // Jalankan ulang script navbar jika ada
+                // jalanin ulang script navbar jika ada
                 var scripts = document.getElementById('bottom-navbar').getElementsByTagName('script');
                 for (var i = 0; i < scripts.length; i++) {
                     eval(scripts[i].innerText);
