@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Movie Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="../css/styleale.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container-ranking" style="height: 940px;">
+        <div class="scrollable-content">
+            <!-- Video Trailer -->
+            <div class="top-video-area">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/4ECAaQkNAbc?si=_xZj_jS0IDskafxW"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                <div class="top-video-overlay">
+                    <div class="logo">
+                        <button id="back-btn" aria-label="Back"
+                            class="btn btn-outline-light rounded-circle p-0 d-flex align-items-center justify-content-center"
+                            style="width:32px;height:32px;">
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Info -->
+            <div class="movie-info d-flex gap-3 bg-white p-4">
+                <img alt="Movie poster When Life Give You Tangerine"
+                    src="image/wlgyt.png" class="rounded-3 object-fit-cover" />
+                <div class="details flex-grow-1">
+                    <h1 class="fw-semibold fs-4 mb-2">When Life Give You Tangerine</h1>
+                    <div class="row">
+                        <div class="col-6 text-secondary fw-semibold small">
+                            <div>Genre</div>
+                            <div>Rilis</div>
+                            <div>Durasi</div>
+                            <div>Sutradara</div>
+                            <div>Rating Usia</div>
+                        </div>
+                        <div class="col-6 fw-normal small">
+                            <div>Drama</div>
+                            <div>2020</div>
+                            <div>2 jam 25 menit</div>
+                            <div>Alexandra Pritha</div>
+                            <div>SU</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Rating & Action Section -->
+            <div class="rating-section d-flex text-center">
+                <div class="d-flex flex-column align-items-center justify-content-center gap-1 flex-fill border-end">
+                    <div class="rating-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><br />
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                    </div>
+                    <div class="fw-semibold">IMDb: 8.0/10</div>
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-center gap-1 flex-fill border-end">
+                    <i class="fas fa-comment-alt"></i>
+                    <div>100K+ Ulasan</div>
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-center gap-1 flex-fill">
+                    <i class="far fa-bookmark"></i>
+                    <div>Add to Watchlist</div>
+                </div>
+            </div>
+            <!-- Ulasan Populer -->
+            <div class="reviews-heading fw-semibold fs-5 mt-4 mb-2 mx-3">Ulasan Populer</div>
+            <!-- Review 1 -->
+            <div class="review-card d-flex gap-3 rounded-4 mx-3 mb-3 p-3" style="background:#e6f0ff;">
+                <div class="avatar bg-white border rounded-circle flex-shrink-0"></div>
+                <div class="content flex-grow-1">
+                    <div class="d-flex flex-column align-items-start">
+                        <span class="name fw-semibold">Alexandra Pritha</span>
+                        <span class="sub ms-0">K-Drama Lovers</span>
+                    </div>
+                    <div>
+                        <div class="stars d-flex align-items-center gap-1 text-primary mt-1">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                            <div class="time ms-2" style="display:inline-block;">6 month ago</div>
+                        </div>
+                        <p class="mt-1 small mb-0">
+                            SEDIH BANGET TAPI BAGUS.. This movie taught us so much about what is the meaning of life... Park Bo Gum ganteng banget lagi duhhhhhhhhh... Suka banget dari plot, s
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Review 2 -->
+            <div class="review-card d-flex gap-3 rounded-4 mx-3 mb-3 p-3" style="background:#e6f0ff; margin-bottom:0 !important;">
+                <div class="avatar bg-white border rounded-circle flex-shrink-0"></div>
+                <div class="content flex-grow-1">
+                    <div class="d-flex flex-column align-items-start">
+                        <span class="name fw-semibold">Sari</span>
+                        <span class="sub ms-0">Action Film Criticus</span>
+                    </div>
+                    <div>
+                        <div class="stars d-flex align-items-center gap-1 text-primary mt-1">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                            <div class="time ms-2" style="display:inline-block;">6 month ago</div>
+                        </div>
+                        <p class="mt-1 small mb-0">
+                            Cinematographynya JUARA... Berhasil bawa penonton ke Jeju kala itu, dimana krisis moneter menyerang, susahnya kehidupan, manisnya kasih sayang orang tua dan keluarg...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Navigation -->
+        <div id="bottom-navbar"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Load bottom navbar
+        fetch('BottomNavbar.html')
+            .then(res => res.text())
+            .then(html => {
+                document.getElementById('bottom-navbar').innerHTML = html;
+                // Script di dalam komponen harus dijalankan ulang
+                var scripts = document.getElementById('bottom-navbar').getElementsByTagName('script');
+                for (var i = 0; i < scripts.length; i++) {
+                    eval(scripts[i].innerText);
+                }
+            });
+
+        // Tombol back ke ranking
+        document.addEventListener('DOMContentLoaded', function () {
+            const backBtn = document.getElementById('back-btn');
+            if (backBtn) {
+                backBtn.addEventListener('click', function () {
+                    window.location.href = 'Ranking.html';
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

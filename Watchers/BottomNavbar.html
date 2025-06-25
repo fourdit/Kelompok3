@@ -1,0 +1,60 @@
+<nav id="main-bottom-nav" class="bottom-nav d-flex justify-content-around align-items-center border-top bg-white">
+    <button type="button" aria-label="Home"><i class="fas fa-home fs-4"></i></button>
+    <button type="button" aria-label="Favorites "><i class="fas fa-star fs-4"></i></button>
+    <button type="button" aria-label="Movies"><i class="fas fa-film fs-4"></i></button>
+    <button type="button" aria-label="Groups"><i class="fas fa-users fs-4"></i></button>
+</nav>
+<script>
+function setupBottomNavbar() {
+    const nav = document.getElementById('main-bottom-nav');
+    if (!nav) return;
+    const btns = nav.querySelectorAll('button');
+    if (btns.length < 4) return;
+
+    btns[0].onclick = () => alert('waduh, fitur ini belum ada!'); // Home (isi sendiri laa)
+    btns[1].onclick = () => window.location.href = 'Ranking.html'; //contohe kyk gini
+    btns[2].onclick = () => window.location.href = 'Watchlist.html';
+    btns[3].onclick = () => window.location.href = 'opinionCollection.html'; 
+
+    // Aktifkan penanda sesuai halaman
+    const path = window.location.pathname;
+    btns.forEach(btn => btn.classList.remove('active-nav'));
+    if (path.endsWith('Watchlist.html')) btns[2].classList.add('active-nav');
+    else if (path.endsWith('index.html') || path.endsWith('AllGenre.html')) btns[1].classList.add('active-nav');
+}
+setupBottomNavbar();
+</script>
+
+<!-- ini buat stylenya -->
+<style>
+#main-bottom-nav button {
+    background: none;
+    border: none;
+    padding: 22px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    transition: background 0.15s;
+    margin: 0 2px;
+}
+#main-bottom-nav button:hover {
+    background: #e6f0ff;
+}
+#main-bottom-nav button.active-nav i {
+    /* ini kalau mau ganti warna yang aktif ya*/
+    color: #3b3b3b;
+}
+#main-bottom-nav button.active-nav::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 1px;
+    transform: translateX(-50%);
+    width: 24px;
+    height: 3px;
+    border-radius: 2px;
+    /* ini jugak kalau mau ganti warna yang aktif */
+    background: #3b3b3b;
+    opacity: 0.22;
+}
+</style>
