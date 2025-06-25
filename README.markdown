@@ -5,6 +5,7 @@ Repositori ini berisi implementasi antarmuka aplikasi **Watchers**, sebuah platf
 - Alexandra Pritha Sari (245150401111006)  
 - Cantika Zahna Brillianto Putri (245150407111001)  
 
+## Struktur Folder
 
 - `Watchers/` → Berisi kode sumber aplikasi (HTML, CSS, dan gambar).  
   - `css/` → Berisi file CSS untuk gaya antarmuka. 
