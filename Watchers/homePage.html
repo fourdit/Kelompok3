@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Watchers</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="cssChann.css" />
+</head>
+
+<body>
+
+  <div class="container-custom">
+    <!-- Status Bar -->
+    <div class="d-flex justify-content-between align-items-center px-3 pt-2 pb-1 small" id="status-bar">
+      <div class="fw-bold">9:41</div>
+      <div class="d-flex align-items-center gap-2">
+        <i class="bi bi-reception-4"></i>
+        <i class="bi bi-wifi"></i>
+        <i class="bi bi-battery-full"></i>
+      </div>
+    </div>
+
+    <!-- Top Bar (Back, Search, Profile) -->
+    <div class="d-flex align-items-center justify-content-between px-2 pb-2" id="top-nav">
+      <i class="bi bi-chevron-left fs-4" style="cursor: pointer;" onclick="history.back()"></i>
+      <div class=" mx-4 position-relative">
+        <input type="text" class="form-control form-control-sm pe-5 search-bar" placeholder="Search movie/genre...">
+        <i class="bi bi-search position-absolute top-50 end-0 translate-middle-y pe-0 me-2 text-muted"></i>
+      </div>
+      <a href="userProfile.html" class="text-dark">
+        <i class="bi bi-person fs-4"></i>
+      </a>
+    </div>
+
+    <!-- Logo -->
+    <div class="logo my-2">
+      <img src="Logo Watchers.png" class="w-100 rounded" alt="Watchers Logo">
+    </div>
+
+    <!-- Hot Film -->
+    <div class="text-center fw-bold fs-5 mb-3 mt-3">Hot Film🔥</div>
+    <div class="hot-film-wrapper text-center">
+      <div class="row g-2 px-2" style="row-gap: 15px;">
+        <div class="col-4">
+          <a href="playSearch.html">
+            <img src="Avengers.jpeg" class="img-film" alt="Avengers">
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="playDrama.html">
+            <img src="Drakor.jpeg" class="img-film" alt="Drakor">
+          </a>
+        </div>
+        <div class="col-4"><img src="Aladdin.jpeg" class="img-film"></div>
+        <div class="col-4"><img src="Conjuring.jpeg" class="img-film"></div>
+        <div class="col-4"><img src="Jumbo.jpeg" class="img-film"></div>
+        <div class="col-4"><img src="SquidGame.jpeg" class="img-film"></div>
+      </div>
+    </div>
+
+    <!-- Hot Topic -->
+    <div class="text-center fw-bold fs-5 mt-2 mb-3">Hot Topic🔥</div>
+    <div class="hot-topic rounded d-flex">
+      <!-- Gambar & judul -->
+      <div class="d-flex flex-column align-items-center justify-content-center me-1 ms-2">
+        <img src="Avengers.jpeg" class="rounded" />
+        <div class="fw-bold text-center custom-title">Avengers: <br> Endgame</div>
+      </div>
+
+      <!-- Komentar -->
+      <div class="flex-grow-1 d-flex justify-content-center align-items-center">
+        <a href="hotTopicResult.html" class="text-start py-2 comment-text-size text-decoration-none text-dark">
+          <strong>Layla :</strong> INI FILM BAGUS BGT PLISSS!!! KALO KALIA...<br>
+          <strong>Miya :</strong> Jujur, aku tau ini film dari adik gua. Tapi, tern...<br>
+          <strong>Alucard :</strong> Bagi yang suka genre action harusnya si...<br>
+          <strong>Hayabusa :</strong> Filmnya terlalu khayal buat gua yang re...<br>
+          <strong>Kagura :</strong> IHHH CAPTAIN AMERIKA GANTENG PLISS...
+        </a>
+      </div>
+    </div>
+
+    <!-- Bottom Nav -->
+    <div class="nav-bar">
+      <a href="homePage.html" class="nav-item"><i class="bi bi-house-door-fill custom-thick-outline"
+          style="font-size: 17px;"></i></a>
+      <a href="Ranking.html" class="nav-item"><i class="bi bi-star custom-thick-outline"
+          style="font-size: 17px;"></i></a>
+      <a href="Watchlist.html" class="nav-item"><i class="bi bi-film custom-thick-outline"
+          style="font-size: 17px;"></i></a>
+      <a href="opinionCollection.html" class="nav-item"><img src="gmail_groups.png" alt="Opinions" width="24"
+          height="24" /></a>
+      <div class="nav-bottom-line"></div>
+    </div>
+  </div>
+
+  <script src="javaScriptChann.js"></script>
+
+</body>
+
+</html>
