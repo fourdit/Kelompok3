@@ -5,14 +5,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const isOnHomePage = path.includes("homePage.html");
     const isOnSearchPage = path.includes("searchResult.html");
 
-    // ➤ Home → fokus pindah ke searchResult.html
+    // Home
     if (isOnHomePage && searchInput) {
         searchInput.addEventListener('focus', () => {
             window.location.href = 'searchResult.html';
         });
     }
 
-    // ➤ Di searchResult.html → tekan enter: simpan keyword & redirect
+    // searchResult.html
     if (isOnSearchPage && searchInput) {
         searchInput.addEventListener('keydown', function (e) {
             if (e.key === 'Enter') {
@@ -26,17 +26,15 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    // ➤ Semua halaman: tampilkan keyword jika ada di localStorage
+    // tampilkan keyword jika ada di localStorage
     if (searchInput) {
         const savedKeyword = localStorage.getItem('searchKeyword');
         if (savedKeyword) {
             searchInput.value = savedKeyword;
-            // Hapus jika hanya mau dipakai 1x, atau biarkan agar muncul terus:
-            // localStorage.removeItem('searchKeyword');
         }
     }
 
-    // ➤ Play video di playSearch.html
+    // ➤ Play video
     const playIcon = document.getElementById('playButtonIcon');
     const thumbnail = document.getElementById('thumbnailImage');
     const videoWrapper = document.getElementById('videoWrapper');
