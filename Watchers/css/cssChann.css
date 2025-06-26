@@ -1,0 +1,397 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: transparent;
+    overflow-x: hidden;
+}
+
+.container-custom {
+    max-width: 390px;
+    min-height: 844px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+#status-bar {
+    margin-bottom: 6px;
+}
+
+#status-bar i {
+    font-size: 1rem;
+    color: #000;
+}
+
+#top-nav {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+#top-nav input[type="text"] {
+    background-color: #EBF2FA;
+    border: 1px solid #ced4da;
+    width: 250px;
+    height: 30px;
+}
+
+.logo img {
+    height: 200px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.row.g-2.px-2 img {
+    width: 91px;
+    height: 91px;
+    object-fit: cover;
+}
+
+.img-film {
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.hot-topic {
+    display: flex;
+    align-items: flex-start;
+    font-size: 10px;
+    line-height: 1.4;
+    background-color: #EBF2FA;
+    color: #001514;
+    width: 390px;
+}
+
+.hot-topic img {
+    width: 91px;
+    height: 91px;
+    object-fit: cover;
+}
+
+.hot-topic .d-flex.flex-column {
+    align-items: center;
+    text-align: center;
+}
+
+.custom-title {
+    color: #001514;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.comment-text-size {
+    margin-left: -20px;
+    margin-top: 12px;
+    line-height: 2;
+}
+
+.nav-bar {
+    width: 100%;
+    max-width: 390px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 0;
+    border-top: 1px solid #ddd;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.nav-bottom-line {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 134px;
+    height: 5px;
+    background-color: black;
+    border-radius: 999px;
+}
+
+.nav-item {
+    color: #A5A5A5;
+    text-decoration: none;
+    font-size: 1.5rem;
+    align-self: flex-start;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.nav-item img {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-item.active,
+.nav-item:hover {
+    color: #4169E1;
+}
+
+.custom-thick-outline {
+    -webkit-text-stroke: 1.2px currentColor;
+    color: black;
+}
+
+/* searchResult */
+
+.search-results {
+    background-color: #ebf2fa;
+    width: 100%;
+    height: 293px;
+    position: absolute;
+    top: 105%;
+    z-index: 10;
+    font-size: 14px;
+}
+
+.search-results .small {
+    font-size: 10px;
+    margin-top: -5px;
+}
+
+.search-results-bold {
+    padding-bottom: 6px;
+    margin-top: -3px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.search-results div {
+    padding: 4px 0;
+    font-size: 15px;
+}
+
+.search-results i {
+    font-size: 15px;
+}
+
+.d-none {
+    display: none !important;
+}
+
+/* playSearch */
+
+body.play-search .result-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 85%;
+}
+
+.poster-custom {
+    width: 117px;
+    height: 163px;
+    object-fit: cover;
+}
+
+
+.movie-detail-section {
+    background-color: #EBF2FA;
+    padding: 16px;
+    margin-top: 24px;
+}
+
+.movie-title {
+    text-align: center;
+    font-size: 20px;
+    margin: -9px 0 5px 0;
+}
+
+.movie-info {
+    font-size: 13px;
+}
+
+.movie-description {
+    font-size: 13px;
+    line-height: 1.8;
+    text-align: right;
+}
+
+.info-row {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    margin-bottom: 6px;
+}
+
+.info-row .label {
+    min-width: 75px;
+    color: #8d8d8d;
+}
+
+.info-row .value {
+    color: #001514;
+}
+
+/* searchResultDrama */
+
+.drama-list-box {
+    background-color: #EBF2FA;
+    width: 386px;
+    height: 510px;
+    padding: 10px;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+.list-priority {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #dadada;
+    padding-top: 16px;
+    margin-bottom: 16px;
+    align-items: flex-start;
+}
+
+.img-large {
+    width: 94px;
+    height: 131px;
+    object-fit: cover;
+    margin-bottom: 13px;
+}
+
+.list-priority-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+.film-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #001514;
+    margin-bottom: 4px;
+}
+
+.film-info {
+    font-size: 12px;
+    color: #8d8d8d;
+    margin-bottom: 4px;
+}
+
+.rating-text {
+    color: #3C6DE0;
+}
+
+.description-text {
+    font-size: 12px;
+    color: #8d8d8d;
+    display: block;
+    margin-top: 4px;
+    line-height: 1.5;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 9px;
+    background-color: transparent;
+}
+
+.list-number {
+    font-weight: bold;
+    font-size: 14px;
+    width: 20px;
+    text-align: right;
+    margin-right: 6px;
+    color: #001514;
+    flex-shrink: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.list-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #001514;
+    margin-bottom: 2px;
+}
+
+.list-info {
+    font-size: 12px;
+    color: #8d8d8d;
+}
+
+.img-small {
+    width: 64px;
+    height: 89px;
+    object-fit: cover;
+}
+
+/* playDrama */
+
+.poster-avangers {
+    margin-top: -7px;
+    margin-bottom: -15px;
+}
+
+#videoWrapper {
+    height: 358px;
+    width: 390px;
+}
+
+.video-thumbnail {
+    width: 390px;
+    height: 358px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.play-button-icon {
+    font-size: 48px;
+    color: white;
+    cursor: pointer;
+}
+
+/* hotTopicResult */
+
+.comment-box {
+    background-color: #B9D6F2;
+    line-height: 1.6;
+    width: 360px;
+    height: 190px;
+    overflow: hidden;
+    font-size: 10px;
+    margin: auto;
+}
+
+.comment-box .border {
+    background-color: #B9D6F2;
+}
+
+.comment-box .user-info {
+    line-height: 1.1;
+    margin-top: 2px;
+}
+
+.comment-box hr {
+    border-color: #e6e6e6;
+    border-top-width: 3px;
+    margin: 8px 0;
+}
+
+.movie-detail-wrapper {
+    background-color: #EBF2FA;
+    margin-top: 24px;
+}
+
+/* bg */
+
+html {
+    background-color: #FFE6EA; /* soft pink */
+}
