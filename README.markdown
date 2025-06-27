@@ -11,13 +11,15 @@ Repositori ini berisi implementasi antarmuka aplikasi **Watchers**, sebuah platf
   - `css/` → Berisi file CSS untuk gaya antarmuka. 
   - `images/` → Berisi gambar seperti avatar dan poster film (placeholder digunakan dalam kode).  
   - `bs/`  → Berisi file-file bootstrap css   
-  - `GenreIcon/` → Berisi file icon-icon  
-- `Design Figma/` → Berisi file desain Figma untuk antarmuka aplikasi.  
-- `Sketsa Design App/` → Berisi sketsa desain aplikasi dalam format gambar atau PDF.   
+  - `GenreIcon/` → Berisi file icon-icon   
+- `Sketsa Design App/` → Berisi sketsa desain aplikasi dalam format PDF.   
 
 ## Fitur Tampilan
 
 Setiap halaman UI memiliki fitur berikut:  
+- **Halaman Trending** (`homepage.html`):  
+  - Menampilkan film populer berdasarkan aktivitas pengguna.  
+  - Poster film, judul, dan jumlah interaksi (misalnya, *likes* atau *shares*). 
 - **Halaman Koleksi Opini** (`opinionCollection.html`, `opinionCollection1.html`):  
   - Menampilkan daftar ulasan film dengan poster, rating, dan teks ulasan.  
   - Tab "For You" untuk rekomendasi umum dan "Komunitas Wibu" untuk ulasan anime.  
@@ -34,10 +36,7 @@ Setiap halaman UI memiliki fitur berikut:
   - Poster film, judul, dan skor rating untuk setiap entri.  
 - **Halaman Watchlist** (`watchlist.html`):  
   - Menampilkan daftar film yang disimpan pengguna untuk ditonton nanti.  
-  - Poster film, judul, dan opsi untuk menghapus dari *watchlist*.  
-- **Halaman Trending** (`trending.html`):  
-  - Menampilkan film populer berdasarkan aktivitas pengguna.  
-  - Poster film, judul, dan jumlah interaksi (misalnya, *likes* atau *shares*).  
+  - Poster film, judul, dan opsi untuk menghapus dari *watchlist*.   
 
 
 ## Cara Menjalankan melalui Local File
@@ -52,4 +51,4 @@ Setiap halaman UI memiliki fitur berikut:
 **Catatan:**  
 - File HTML menggunakan path relatif untuk CSS dan gambar di folder `Watchers/assets/`. Pastikan struktur folder tidak diubah setelah ekstrak ZIP.  
 - Jika ikon tidak muncul, periksa koneksi internet atau unduh Bootstrap Icons secara lokal dan sesuaikan path di file HTML.  
-- File Figma di folder `Design Figma/` memerlukan aplikasi Figma untuk dibuka. Sketsa di folder `Sketsa Design App/` dapat dibuka dengan penampil gambar atau PDF standar.
+- Sketsa di folder `Sketsa Design App/` dapat dibuka dengan penampil gambar atau PDF standar.
